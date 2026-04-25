@@ -10,6 +10,7 @@ import java.util.Set;
 
 @Entity
 @Data
+@Table(name = "Order_table")
 public class Order {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
