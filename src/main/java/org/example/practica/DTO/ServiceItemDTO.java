@@ -9,4 +9,5 @@ public class ServiceItemDTO {
     private Long id;
     private String description;
     private BigDecimal price;
+    private Long orderId;
 }
